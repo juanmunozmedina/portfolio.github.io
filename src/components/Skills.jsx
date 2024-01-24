@@ -9,7 +9,7 @@ const Skills = () => {
                 </div>
                 <div className="skill-card sass">
                     <i className="fa-brands fa-sass sass-icon"></i>
-                    <p>SASS</p>
+                    <p>Sass</p>
                 </div>
                 <div className="skill-card js">
                     <i className="fa-brands fa-js-square js-icon"></i>
@@ -29,7 +29,7 @@ const Skills = () => {
                 </div>
                 <div className="skill-card vscode">
                     <i className="fa-solid fa-code code-icon"></i>
-                    <p>Visual Studio Code</p>
+                    <p>VS Code</p>
                 </div>
                 <div className="skill-card photoshop">
                     <i className="fa-solid fa-image image-icon"></i>

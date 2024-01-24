@@ -10,7 +10,7 @@ body {
   line-height: 1.5;
   background-color: #1D1E20;
   color: #DADADB;
-  width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 0;
 }
@@ -46,7 +46,7 @@ li {
 }
 
 .cta-btn {
-  background-color: #08D9FF;
+  background-color: #3F7A88;
   color: #F9F9F9;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -242,7 +242,7 @@ hr {
   gap: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 980px) {
   .skills-container .grid-skills {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -266,6 +266,10 @@ hr {
   font-size: 1.5rem;
 }
 
+.skills-container .grid-skills .skill-card:hover {
+  color: #F9F9F9;
+}
+
 .skills-container .grid-skills .html:hover {
   background-color: #DD4B25;
 }
@@ -284,6 +288,10 @@ hr {
 
 .skills-container .grid-skills .symfony:hover {
   background-color: #080808;
+}
+
+.skills-container .grid-skills .drupal:hover {
+  background-color: #089FDF;
 }
 
 .skills-container .grid-skills .vscode:hover {
@@ -312,14 +320,20 @@ hr {
   grid-auto-rows: 1fr;
 }
 
-.projects-grid a:hover .fa-folder-closed:before {
-  content: "\f07c";
+@media screen and (max-width: 980px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.projects-grid a:hover .fa-folder-closed:before {
+  content: "\f07c";
 }
 
 .project-card {
@@ -337,7 +351,7 @@ hr {
 
 .project-card .folder-icon {
   font-size: 35px;
-  color: #08D9FF;
+  color: #3F7A88;
 }
 
 .project-header .small-icons {
@@ -350,7 +364,7 @@ hr {
 }
 
 .project-card a:hover .small-icons i {
-  color: #08D9FF;
+  color: #3F7A88;
 }
 
 .project-card .project h3 {
