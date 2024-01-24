@@ -18,7 +18,7 @@ const Hero = () => {
                         <i className="fa-brands fa-github"></i>
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/juanmunozmedina/"
+                        href="https://es.linkedin.com/in/juan-munoz-medina"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="external"
